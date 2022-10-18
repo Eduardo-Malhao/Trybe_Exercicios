@@ -1,2 +1,21 @@
 p{font-family:sans-serif;}
 
+li:hover {
+    background-color: gray;
+}
+
+li:active{
+    color: azure;
+}
+
+.h3_title{
+    font-family: Verdana, sans-serif;
+    border-top: 3px;
+    border-bottom: 3px;
+    color: aqua;
+    padding: 5px 5px;
+}
+
+body{
+    background-color: rgb(207, 207, 207);
+}
