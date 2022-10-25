@@ -35,3 +35,12 @@
 
 //exe03
 
+// var sequence = [1, 1, 2, 3, 5, 8, 13];
+// for (var i = 0; i < sequence.length; i++) {
+//   console.log(sequence[i]);
+// }
+
+let num = 0;
+for(let index = 0; index <= 100; index+=1 ){
+    console.log(num += index);
+}
