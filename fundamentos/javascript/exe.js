@@ -89,20 +89,163 @@
 
 // exe06
 
-let verificaPalindrome = ["xablau"];
-console.log(verificaPalindrome);
+// let verificaPalindrome = 'arara';
+// console.log(verificaPalindrome);
 
-function spliter (verificaPalindrome) {
-    return verificaPalindrome.split(),
-    console.log(verificaPalindrome);
-}
-function reverser (verificaPalindrome){
-    return verificaPalindrome.reverse(),
-    console.log(verificaPalindrome);
-}
-function joiner (verificaPalindrome) {
-    return verificaPalindrome.join(),
-    console.log(verificaPalindrome);
-}
- 
-console.log(verificaPalindrome);
+// function spliter (inicialstring) {
+//     let splitado = verificaPalindrome.split("")
+//     let reverse = splitado.reverse()
+//     let juntado = reverse.join("")
+
+// if (juntado === verificaPalindrome){
+//    console.log('True'); 
+// }
+
+// else {(console.log('False'))};
+// }
+// spliter(verificaPalindrome)
+
+// console.log(verificaPalindrome.split("").reverse().join("") === verificaPalindrome);
+
+//exebonus01
+
+// let romanos = {
+// I:'1',
+// II: '2',
+// III: '3',
+// IV:'4',
+// V:'5',
+// VI: '6',
+// VII: '7',
+// VIII: '8',
+// IX:'9',
+// X:'10',
+// XL:'40',
+// L:'50',
+// XC:'90',
+// C:'100',
+// CD:'400',
+// D:'500',
+// CM:'900',
+// M:'1000',
+// }
+
+// let numberR = 'XV'
+
+// function calculadora (numberR) {
+//     let spliter = numberR.split("");
+//        for(let i = 0; i < spliter.length; i += 1){
+//            console.log(romanos[spliter[i]]);
+//            if(romanos[spliter[i-1]] < romanos[spliter[i]]){ 
+//             console.log(romanos[spliter[i-1]] - romanos[spliter[1]]);
+//             }
+            
+//             else if(romanos[spliter[i-1]] === romanos[spliter[i]]) {
+//                console.log(romanos[spliter[i-1]] + romanos[spliter[i]]);
+//             }
+            
+//             else if(romanos[spliter[i-1]] > romanos[spliter[i]]) {
+//                 console.log(romanos[spliter[i-1]] + romanos[spliter[i]]);
+//             }
+//        }
+//     }
+
+// calculadora(numberR)
+
+// exebonus02
+
+// const basket = [
+//     'Melancia', 'Abacate', 'Melancia', 'Melancia', 'Uva', 'Laranja',
+//     'Jaca', 'Pera', 'Melancia', 'Uva', 'Laranja', 'Melancia',
+//     'Banana', 'Uva', 'Pera', 'Abacate', 'Laranja', 'Abacate',
+//     'Banana', 'Melancia', 'Laranja', 'Laranja', 'Jaca', 'Uva',
+//     'Banana', 'Uva', 'Laranja', 'Pera', 'Melancia', 'Uva',
+//     'Jaca', 'Banana', 'Pera', 'Abacate', 'Melancia', 'Melancia',
+//     'Laranja', 'Pera', 'Banana', 'Jaca', 'Laranja', 'Melancia',
+//     'Abacate', 'Abacate', 'Pera', 'Melancia', 'Banana', 'Banana',
+//     'Abacate', 'Uva', 'Laranja', 'Banana', 'Abacate', 'Uva',
+//     'Uva', 'Abacate', 'Abacate', 'Melancia', 'Uva', 'Jaca',
+//     'Uva', 'Banana', 'Abacate', 'Banana', 'Uva', 'Banana',
+//     'Laranja', 'Laranja', 'Jaca', 'Jaca', 'Abacate', 'Jaca',
+//     'Laranja', 'Melancia', 'Pera', 'Jaca', 'Melancia', 'Uva',
+//     'Abacate', 'Jaca', 'Jaca', 'Abacate', 'Uva', 'Laranja',
+//     'Pera', 'Melancia', 'Jaca', 'Pera', 'Laranja', 'Jaca',
+//     'Pera', 'Melancia', 'Jaca', 'Banana', 'Laranja', 'Jaca',
+//     'Banana', 'Pera', 'Abacate', 'Uva',
+//   ];
+// function count (basket) {
+//     let contadorMelancia = 0
+//     let contadorBanana = 0
+//     let contadorPera = 0
+//     let contadorUva = 0
+//     let contadorJaca = 0
+//     let contadorLaranja = 0
+//     let contadorAbacate = 0
+    
+//     for(let fruit in basket) {
+//         if(basket[fruit] === 'Melancia'){
+//             contadorMelancia += 1
+//         } 
+//         else if(basket[fruit] === 'Banana'){
+//             contadorBanana += 1
+//         }
+//         else if(basket[fruit] === 'Pera'){
+//             contadorPera += 1
+//         }
+//         else if (basket[fruit] === 'Uva'){
+//             contadorUva += 1
+//         }
+//         else if(basket[fruit] === 'Jaca'){
+//             contadorJaca += 1
+//         }
+//         else if(basket[fruit] === 'Laranja'){
+//             contadorLaranja += 1
+//         }
+//         else if(basket[fruit] === 'Abacate'){
+//             contadorAbacate += 1
+//         }
+//     }
+//     console.log(`Melancia ${contadorMelancia}, Banana ${contadorBanana}, Pera ${contadorPera}, Uva ${contadorUva}, Jaca ${contadorJaca}, Laranja ${contadorLaranja}, Abacate ${contadorAbacate}`);
+// }
+// count(basket)
+
+//exebonus03
+
+// let moradores = {
+//     blocoUm: [
+//       {
+//         nome: 'Luiza',
+//         sobrenome: 'Guimarães',
+//         andar: 10,
+//         apartamento: 1005,
+//       },
+//       {
+//         nome: 'William',
+//         sobrenome: 'Albuquerque',
+//         andar: 5,
+//         apartamento: 502,
+//       },
+//     ],
+//     blocoDois: [
+//       {
+//         nome: 'Murilo',
+//         sobrenome: 'Ferraz',
+//         andar: 8,
+//         apartamento: 804,
+//       },
+//       {
+//         nome: 'Zoey',
+//         sobrenome: 'Brooks',
+//         andar: 1,
+//         apartamento: 101,
+//       },
+//     ],
+//   };
+
+// for(let i in moradores){
+//     for(let i2 in moradores[i]){
+//         moradores[i][i2]['fullName'] = moradores[i][i2].nome + " " + moradores[i][i2].sobrenome
+//     }
+// }
+//   console.log(moradores.blocoDois[moradores.blocoDois.length-1].fullName + moradores.blocoDois[moradores.blocoDois.length-1].andar + moradores.blocoDois[moradores.blocoDois.length-1].apartamento);
+
