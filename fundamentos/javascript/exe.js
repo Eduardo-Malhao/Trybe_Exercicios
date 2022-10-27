@@ -248,4 +248,3 @@
 //     }
 // }
 //   console.log(moradores.blocoDois[moradores.blocoDois.length-1].fullName + moradores.blocoDois[moradores.blocoDois.length-1].andar + moradores.blocoDois[moradores.blocoDois.length-1].apartamento);
-
